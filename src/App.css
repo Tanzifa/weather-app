@@ -1,0 +1,42 @@
+.container{
+  width:100%;
+
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.list{
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+ 
+}
+
+.list li{
+  
+  font-size: 24px;
+  font-weight: 500;
+  padding:10px 0px;
+  text-transform:capitalize;
+ 
+}
+
+.search-box{
+  margin-top: 20px;
+  font-size: 24px;
+ padding: 10px;
+  width: 30%;
+  display: block;
+  margin:10px auto;
+}
+span{
+  text-transform: lowercase;
+}
